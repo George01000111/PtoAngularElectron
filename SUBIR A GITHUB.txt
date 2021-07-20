@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m "subiendo por primera vez"
+git remote add origin https://github.com/George01000111/PtoAngularElectron.git
+git remote set-url origin https://github.com/George01000111/PtoAngularElectron.git
+git push origin master -f

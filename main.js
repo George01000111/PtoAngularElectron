@@ -5,16 +5,19 @@ const path = require('path')
 function createWindow () {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
-    width: 800,
-    height: 600,
+    width: 700,
+    height: 800,
+    title:'hola',
+    maximizable:false,
     webPreferences: {
       preload: path.join(__dirname, 'preload.js')
     }
   })
 
   // and load the index.html of the app.
-  mainWindow.loadFile('index.html')
-
+  mainWindow.loadFile('PtoRutasDias/index.html')
+  mainWindow.setTitle('')
+  mainWindow.setMenu(null)
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
 }
