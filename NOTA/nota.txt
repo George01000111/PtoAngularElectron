@@ -1,24 +1,22 @@
 
-1 generar ng build --prod
-2 copiar de la carpeta q esta dentro de dist
+instalar esto al bajar de github
+npm i -D electron@latest
+
+-------Generar Ejecutable-----------------------------------------------
+1 generar ng build --prod en angular
+2 copiar de la carpeta q esta dentro de dist en angular
 3 copiar en la carperta de electron
 4 dentro del archivo index.html cambiar <base href="/"> cambiar <base href=".">
-5 en la carpeta de electron en el archivo main.js especificar donde esta lo q se va ejecutar mainWindow.loadFile('PtoPrueba/index.html')
-
-
+5 en la carpeta de electron en el archivo main.js especificar donde esta lo q se va ejecutar mainWindow.loadFile('PtoRutasDias/index.html')
 https://www.youtube.com/channel/UCO7jMD1M8KCXQUVhklochaw
-
-para ejecutar angular
-npm start
-
-generar ejecutable 
-*instalamo el electron-packager
+6 instalamo el electron-packager
 npm install electron-packager -g
-*genera el ejecutable para windows
-electron-packager . --platform=win32 --arch=x64
-
-Con Nombre
+7 genera el ejecutable para windows
  electron-packager . PtoRutasDias --platform=win32 --arch=x64
+------------------------------------------------------------------------
+
+para ejecutar electron
+npm start
 
 
 
