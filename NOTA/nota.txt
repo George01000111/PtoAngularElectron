@@ -5,10 +5,21 @@ https://www.youtube.com/watch?v=mirrusLcnZY&t=16s
 instalar esto al bajar de github
 npm i -D electron@latest
 
+------Mas rapido para copiar a otra pc ya q pesa mucho claro la otra pc debe tener este proyecto PtoAngularElectron-master
+1 generar ng build --prod en angular
+2 copiar de la carpeta q esta dentro de dist en angular llevar a la otra pc y Generar Ejecutable'
+
+--------------ejecutar ahi mismo 
+1 generar ng build --prod en nuestro proyecto angular PtoRutasDias
+2 copiar de la carpeta q esta dentro de dist 
+3 copiar en la carperta de PtoAngularElectron-master
+4 dentro del archivo index.html cambiar <base href="/"> cambiar <base href=".">
+5 en la carpeta de electron en el archivo main.js especificar donde esta lo q se va ejecutar mainWindow.loadFile('PtoRutasDias/index.html')
+1 npm start
 -------Generar Ejecutable-----------------------------------------------
 1 generar ng build --prod en angular
-2 copiar de la carpeta q esta dentro de dist en angular
-3 copiar en la carperta de electron
+2 copiar de la carpeta q esta dentro de dist PtoRutasDias
+3 copiar en la carperta de PtoAngularElectron-master
 4 dentro del archivo index.html cambiar <base href="/"> cambiar <base href=".">
 5 en la carpeta de electron en el archivo main.js especificar donde esta lo q se va ejecutar mainWindow.loadFile('PtoRutasDias/index.html')
 6 instalamo el electron-packager   https://www.npmjs.com/package/electron-packager
