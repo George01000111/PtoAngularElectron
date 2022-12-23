@@ -15,7 +15,7 @@ function createWindow () {
   })
 
   // and load the index.html of the app.
-  mainWindow.loadFile('PtoRutasDias/index.html')
+  mainWindow.loadFile('PtoPrueba/index.html')
   mainWindow.setTitle('')
   mainWindow.setMenu(null)
   // Open the DevTools.

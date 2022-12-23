@@ -1,3 +1,6 @@
+fuente
+https://www.youtube.com/watch?v=8apjUCKQXuo&t=185s
+https://www.youtube.com/watch?v=mirrusLcnZY&t=16s
 
 instalar esto al bajar de github
 npm i -D electron@latest
@@ -8,11 +11,10 @@ npm i -D electron@latest
 3 copiar en la carperta de electron
 4 dentro del archivo index.html cambiar <base href="/"> cambiar <base href=".">
 5 en la carpeta de electron en el archivo main.js especificar donde esta lo q se va ejecutar mainWindow.loadFile('PtoRutasDias/index.html')
-https://www.youtube.com/channel/UCO7jMD1M8KCXQUVhklochaw
-6 instalamo el electron-packager
+6 instalamo el electron-packager   https://www.npmjs.com/package/electron-packager
 npm install electron-packager -g
 7 genera el ejecutable para windows
- electron-packager . PtoRutasDias --platform=win32 --arch=x64
+ electron-packager ./electron-quick-start PtoRutasDias --platform=win32 --arch=x64
 ------------------------------------------------------------------------
 
 para ejecutar electron
